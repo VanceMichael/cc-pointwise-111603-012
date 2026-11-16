@@ -1,20 +1,32 @@
 [
   {
-    "sourceId": "parcel-events-demo-1",
-    "source": "sample-source",
+    "sourceId": "e3",
+    "source": "包裹轨迹汇集器",
     "observedAt": "2026-11-16T09:00:00Z",
-    "label": "轨迹事件",
+    "label": "delivered",
     "attributes": {
-      "sample": true
+      "eventId": "e3",
+      "carrier": "C1",
+      "parcelId": "P-17",
+      "sequence": 3,
+      "kind": "delivered",
+      "eventTime": "2026-11-16T09:00:00Z",
+      "receivedAt": "2026-11-16T09:00:00Z"
     }
   },
   {
-    "sourceId": "parcel-events-demo-2",
-    "source": "sample-source",
-    "observedAt": "2026-11-16T09:05:00Z",
-    "label": "轨迹事件 2",
+    "sourceId": "e2",
+    "source": "包裹轨迹汇集器",
+    "observedAt": "2026-11-16T08:30:00Z",
+    "label": "in-transit",
     "attributes": {
-      "sample": true
+      "eventId": "e2",
+      "carrier": "C1",
+      "parcelId": "P-17",
+      "sequence": 2,
+      "kind": "in-transit",
+      "eventTime": "2026-11-16T08:30:00Z",
+      "receivedAt": "2026-11-16T09:00:00Z"
     }
   }
 ]
