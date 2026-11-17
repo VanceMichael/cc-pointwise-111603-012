@@ -1,0 +1,14 @@
+{
+  "items": [
+    {
+      "eventId": "e3",
+      "carrier": "C1",
+      "parcelId": "P-17",
+      "sequence": 3,
+      "kind": "delivered",
+      "eventTime": "2026-11-16T09:00:00Z",
+      "receivedAt": "2026-11-16T09:00:00Z"
+    }
+  ],
+  "next": null
+}
