@@ -1,0 +1,39 @@
+[
+  {
+    "eventId": "e3",
+    "carrier": "C1",
+    "parcelId": "P-17",
+    "sequence": 3,
+    "kind": "delivered",
+    "eventTime": "2026-11-16T09:00:00Z",
+    "receivedAt": "2026-11-16T09:00:00Z"
+  },
+  {
+    "eventId": "e2",
+    "carrier": "C1",
+    "parcelId": "P-17",
+    "sequence": 2,
+    "kind": "in-transit",
+    "eventTime": "2026-11-16T08:30:00Z",
+    "receivedAt": "2026-11-16T09:00:00Z"
+  },
+  {
+    "eventId": "e1",
+    "carrier": "C1",
+    "parcelId": "P-17",
+    "sequence": 1,
+    "kind": "collected",
+    "eventTime": "2026-11-16T08:00:00Z",
+    "receivedAt": "2026-11-16T10:00:00Z"
+  },
+  {
+    "eventId": "e4",
+    "carrier": "C1",
+    "parcelId": "P-17",
+    "sequence": 4,
+    "kind": "retract",
+    "retracts": "e3",
+    "eventTime": "2026-11-16T10:00:00Z",
+    "receivedAt": "2026-11-16T10:00:00Z"
+  }
+]

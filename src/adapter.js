@@ -13,3 +13,9 @@ export function parsePage(response) {
     attributes: structuredClone(item),
   })) };
 }
+
+// 轨迹接入保留来源事件的完整原始属性；来源时间、接收时间与序号各自独立传递，
+// 由日志层分别保存，适配层不做任何“最新覆盖”或顺序假设。
+export function toCarrierEvents(page) {
+  return page.records.map((record) => structuredClone(record.attributes));
+}
